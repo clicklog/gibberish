@@ -1,0 +1,56 @@
+pgsql="-e pgsql.authtype \
+	-e pgsql.code \
+	-e pgsql.col.index \
+	-e pgsql.col.name \
+	-e pgsql.col.typemod \
+	-e pgsql.column_name \
+	-e pgsql.condition \
+	-e pgsql.constraint_name \
+	-e pgsql.copydata \
+	-e pgsql.detail \
+	-e pgsql.error \
+	-e pgsql.field.count \
+	-e pgsql.file \
+	-e pgsql.format \
+	-e pgsql.frontend \
+	-e pgsql.hint \
+	-e pgsql.internal_position \
+	-e pgsql.internal_query \
+	-e pgsql.key \
+	-e pgsql.length \
+	-e pgsql.line \
+	-e pgsql.message \
+	-e pgsql.parameter_name \
+	-e pgsql.parameter_value \
+	-e pgsql.password \
+	-e pgsql.pid \
+	-e pgsql.portal \
+	-e pgsql.position \
+	-e pgsql.query \
+	-e pgsql.routine \
+	-e pgsql.salt \
+	-e pgsql.schema_name \
+	-e pgsql.severity \
+	-e pgsql.statement \
+	-e pgsql.status \
+	-e pgsql.table_name \
+	-e pgsql.tag \
+	-e pgsql.text \
+	-e pgsql.type \
+	-e pgsql.type_name \
+	-e pgsql.val.data \
+	-e pgsql.val.length \
+	-e pgsql.where"
+
+http="-e http.request.version \
+	-e http.request.method \
+	-e http.host \
+	-e http.request.uri \
+	-e http.user_agent \
+	-e http.response.code \
+	-e http.content_type \
+	-e http.content_length \
+	-e http.location \
+	-e http.response.line \
+	-e http.response.phrase \
+	-e http.referer"
